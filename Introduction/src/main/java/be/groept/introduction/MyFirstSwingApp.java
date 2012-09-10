@@ -55,6 +55,7 @@ public class MyFirstSwingApp {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane joptionPane = new JOptionPane();
 				String url = joptionPane.showInputDialog("Enter URL");
+				//dit is commentaar
 				try {
 					editorPane.setPage(url);
 				} catch (IOException e1) {
